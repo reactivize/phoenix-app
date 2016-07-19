@@ -5,6 +5,7 @@ Docker
 Open the Docker terminal
 
 download the latest Ubuntu, Erlang, Elixir, Phoenix
+
 ``` docker pull marcelocg/phoenix ```
 
 
@@ -15,6 +16,7 @@ download the latest Ubuntu, Erlang, Elixir, Phoenix
 
 
 cd my_new_app
+
 docker run -it --rm -v "$PWD":/code marcelocg/phoenix /bin/bash
 
 ``` mix deps.get ```
